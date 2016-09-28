@@ -19,7 +19,7 @@ var articleOne={
                         third para
                     </p>`
 };
-function createTemplte(data)
+function createTemplate(data)
 {
     var title=data.title;
     var heading=data.heading;
