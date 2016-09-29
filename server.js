@@ -4,7 +4,9 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
-var articleOne={
+var articles={
+
+'article-one':{
     title:'Article one |Heera',
     heading:'Article one',
     date:'Sept 5 2016',
@@ -18,7 +20,36 @@ var articleOne={
                     <p>
                         third para
                     </p>`
+},
+'article-two':{ title:'Article Two |Heera',
+    heading:'Article two',
+    date:'Sept 10 2016',
+    content: 
+                `<p>
+                        This is my content for my seond article.
+                    </p>
+                    <p>
+                       This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para.
+                    </p>
+                    <p>
+                        third para
+                    </p>`},
+'article-three':{title:'Article three |Heera',
+    heading:'Article three',
+    date:'Sept 15 2016',
+    content: 
+                `<p>
+                        This is my content for my third article.
+                    </p>
+                    <p>
+                       This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para.
+                    </p>
+                    <p>
+                        third para
+                    </p>`}
 };
+
+
 function createTemplate(data){
 
     var title = data.title;
@@ -65,15 +96,11 @@ return htmlTemplate;
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-app.get('/article-one', function(req, res){
-   res.send(createTemplate(articleOne));
+app.get('/:articleName', function(req, res){
+    var articleName=req.params.articleName;
+   res.send(createTemplate(articles(articleName)));
 });
-app.get('/article-two', function(req, res){
-    res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
-});
-app.get('/article-three', function(req, res){
-     res.sendFile(path.join(__dirname, 'ui', 'article-three.html'));
-});
+
 
 
 app.get('/ui/style.css', function (req, res) {
