@@ -15,7 +15,7 @@ var button=document.getElementById('counter');
 var counter=0;
 button.OnClick=function(){
     counter=counter+1;
-    var span=document.getElementById('counter');
+    var span=document.getElementById('count');
     span.InnerHTML=counter.toString();
     
 };
