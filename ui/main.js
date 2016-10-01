@@ -7,8 +7,8 @@ function moveright(){
     
 }
 img.onclick=function(){
-   // var interval=setInterval(moveright,500);
-  moveright();
+   var interval=setInterval(moveright,500);
+ // moveright();
 };
 
 var button=document.getElementById('counter');
