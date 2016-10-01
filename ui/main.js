@@ -20,7 +20,7 @@ button.onclick=function(){
                  request.onreadystatechange=function(){
         
         
-                          if(request.readyState===XMLHTMLRequest.DONE){
+                          if(request.readyState===XMLHttpRequest.DONE){
             
         
                                     if(request.status===200){
