@@ -30,11 +30,12 @@ body {
             }
             
 .footer {
-                    max-width: 800px;
+                    max-width: 80px;
                     margin: 0 auto;
                     color: red;
                     font-family: sans-serif;
                     padding-top: 60px;
                     padding-left: 20px;
                     padding-right: 20px;
+                    padding-bottom:20px;
             }
