@@ -3,7 +3,9 @@ body {
     background-color: lightblue;
     margin-top: 10px;
 }
-
+.bgimg{
+    background-image:url(/ui/trees.png);
+}
 .center {
     text-align: center;
 }
