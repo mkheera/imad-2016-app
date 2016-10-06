@@ -2,8 +2,7 @@ body {
     font-family: sans-serif;
     background-color: lightblue;
     margin-top: 10px;
-}
-.bgimg{
+
     background-image:url(/ui/trees.png);
 }
 .center {
