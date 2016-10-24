@@ -18,8 +18,7 @@ var articles={
                        This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para.
                     </p>
                     <p>
-                        <input type="text" id="name" placeholder="name"></input>
-     <input type="submit" id="submit-btn" value="submit"></input>
+                       third para
                     </p>`
 },
 'article-two':{ title:'Article Two |Heera',
