@@ -21,6 +21,16 @@ body {
 .img-medium {
     height: 200px;
 }
+.menu{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:blue;
+    position:fixed;
+    top:0;
+    width:100%;
+}
 .container {
                     max-width: 800px;
                     margin: 0 auto;
