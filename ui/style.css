@@ -31,7 +31,7 @@ body {
     top:0;
     width:100%;
 }
-/*.li{
+.li{
     float:left;
     
 }
@@ -42,7 +42,7 @@ body {
     padding:14px 16px;
     text-decoration:none;
 }
-*/
+
 .container {
                     max-width: 800px;
                     margin: 0 auto;
