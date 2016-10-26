@@ -5,16 +5,7 @@ body {
 
     background-image:url(/ui/trees.png);
 }
-.men{
-    list-style-type:none;
-    margin:0;
-    padding:0;
-    overflow:hidden;
-    background-color:blue;
-    position:fixed;
-    top:0;
-    width:100%;
-}
+
 .center {
     text-align: center;
 }
