@@ -31,11 +31,11 @@ body {
     top:0;
     width:100%;
 }
-.li{
+.lis{
     float:left;
     
 }
-.li a{
+.lis a{
     display:inline-block;
     color:white;
     text-align:center;
