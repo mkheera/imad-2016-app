@@ -64,6 +64,11 @@ var htmlTemplate=`
               <div id="comments">
                 <center>Loading comments...</center>
               </div>
+               <h5>Submit a comment</h5>
+        <textarea id="comment_text" rows="5" cols="100" placeholder="Enter your comment here..."></textarea>
+        <br/>
+        <input type="submit" id="submit" value="Submit" />
+        <br/>
           </div>
           <script type="text/javascript" src="/ui/article.js"></script>   
            
