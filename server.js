@@ -41,20 +41,8 @@ var articles={
                     </p>
                     <p>
                         third para
-                    </p>`},
-'article-three':{title:'Article three |Heera',
-    heading:'Article three',
-    date:'Sept 15 2016',
-    content: 
-                `<p>
-                        This is my content for my third article.
-                    </p>
-                    <p>
-                       This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para.
-                    </p>
-                    <p>
-                        third para
                     </p>`}
+
 };
 
 
