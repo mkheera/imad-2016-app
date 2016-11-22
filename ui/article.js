@@ -17,14 +17,14 @@ submit.onclick=function(){
                                             for(var i=0;i<names.length;i++){
                                                 list+='<li>'+names[i]+'</li>';
                                             }
-                                             var ul=document.getElementById('namelist');
+                                             var ul=document.getElementById('comment_text');
                                               ul.innerHTML=list;
     
                                      }
                 
                           }
                  };
-                 var nameInput=document.getElementById('comment_text');
+                 var nameInput=document.getElementById('namelist');
                  var name=nameInput.value;
                  request.open('GET','http://mkheera.imad.hasura-app.io/submit-name?name=' +name,true);
                  request.send(null);
