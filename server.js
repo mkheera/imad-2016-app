@@ -24,9 +24,7 @@ var articles={
                 `<p>
                         This is my content for my first article.This iThis is my content for my first articleThis is my content for my first articleThis is my content for my first articleThis is my content for my first articleThis is my content for my first articleThis is my content for my first articles my content for my first articleThis is my content for my first articleThis is my content for my first articleThis is my content for my first articleThis is my content for my first articleThis is my content for my first articleThis is my content for my first articleThis is my content for my first articleThis is my content for my first article
                     </p>
-                    <p>
-                       This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para.
-                    </p>
+                  
                     <p>
                        third para
                     </p>`
