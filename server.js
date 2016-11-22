@@ -61,9 +61,7 @@ var htmlTemplate=`
               <h4>Comments</h4>
               <div id="comment_form">
               </div>
-              <div id="comments">
-                <center>Loading comments...</center>
-              </div>
+              
                <h5>Submit a comment</h5>
         <textarea id="comment_text" rows="5" cols="100" placeholder="Enter your comment here..."></textarea>
         <br/>
