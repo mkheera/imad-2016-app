@@ -14,36 +14,7 @@ var config={
 var app = express();
 app.use(morgan('combined'));
 app.use(bodyParser.json());
-var articles={
 
-'article-one':{
-    title:'Article one Heera',
-    heading:'Article one',
-    date:'Sept 5 2016',
-    content: 
-                `<p>
-                        This is my content for my first article.This iThis is my content for my first articleThis is my content for my first articleThis is my content for my first articleThis is my content for my first articleThis is my content for my first articleThis is my content for my first articles my content for my first articleThis is my content for my first articleThis is my content for my first articleThis is my content for my first articleThis is my content for my first articleThis is my content for my first articleThis is my content for my first articleThis is my content for my first articleThis is my content for my first article
-                    </p>
-                  
-                    <p>
-                       third para
-                    </p>`
-},
-'article-two':{ title:'Article Two |Heera',
-    heading:'Article two',
-    date:'Sept 10 2016',
-    content: 
-                `<p>
-                        This is my content for my seond article.
-                    </p>
-                    <p>
-                       This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para. This is my second para.
-                    </p>
-                    <p>
-                        third para
-                    </p>`}
-
-};
 
 
 function createTemplate(data){
