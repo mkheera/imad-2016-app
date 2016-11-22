@@ -63,10 +63,13 @@ var htmlTemplate=`
               </div>
               
                <h5>Submit a comment</h5>
-        <textarea id="comment_text" rows="5" cols="100" placeholder="Enter your comment here..."></textarea>
+        <textarea id="comment_text" rows="1" cols="100" placeholder="Enter your comment here..."></textarea>
         <br/>
         <input type="submit" id="submit" value="Submit" />
         <br/>
+        <ul id="namelist">
+         
+     </ul>
           </div>
           <script type="text/javascript" src="/ui/article.js"></script>   
            
