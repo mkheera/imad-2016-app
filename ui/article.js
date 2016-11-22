@@ -24,7 +24,7 @@ submit.onclick=function(){
                 
                           }
                  };
-                 var nameInput=document.getElementById('name');
+                 var nameInput=document.getElementById('comment_text');
                  var name=nameInput.value;
                  request.open('GET','http://mkheera.imad.hasura-app.io/submit-name?name=' +name,true);
                  request.send(null);
