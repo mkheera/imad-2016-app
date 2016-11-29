@@ -75,6 +75,7 @@ var password=document.getElementById('password').value;
 console.log('username');
 
  request.open('POST','http://mkheera.imad.hasura-app.io/login' ,true);
+ request.setRequestHeader('Content-Type','application/json');
  request.send(JSON.stringify({username:username ,password:password}));
                  request.send(null);
        
