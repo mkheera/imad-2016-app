@@ -6,10 +6,10 @@ function moveright(){
     img.style.marginLeft=marginLeft+'px';
     
 }
-img.onclick=function(){
+//img.onclick=function(){
    //var interval=setInterval(moveright,500);
-  moveright();
-};
+//  moveright();
+//};
 
 var button=document.getElementById('counter');
 
@@ -51,16 +51,16 @@ submit.onclick=function(){
             
         
                                     if(request.status===200){
-                                            var names=request.responseText;
-                                            names=JSON.parse(names);
-                                            var list='';
-                                            for(var i=0;i<names.length;i++){
-                                                list+='<li>'+names[i]+'</li>';
-                                            }
-                                             var ul=document.getElementById('namelist');
-                                              ul.innerHTML=list;
+                                           console.log('user logged in');
+                                           alert('logged in sucessfully');
     
                                      }
+                                     else if(request.status===403){
+                                         alert('username/password is incorrect');
+                                     }
+                                        else if(request.status===500){
+                                            alert('something went wrong');
+                                        }
                 
                           }
                  };
@@ -70,8 +70,13 @@ submit.onclick=function(){
                  request.send(null);
    
 
+var username=document.getElementById('username').value;
+var password=document.getElementById('password').value;
+console.log('username');
 
-
+ request.open('POST','http://mkheera.imad.hasura-app.io/login' ,true);
+ request.send(JSON.stringify({username:username ,password:password}));
+                 request.send(null);
        
     
 };
