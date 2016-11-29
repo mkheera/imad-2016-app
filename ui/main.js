@@ -71,7 +71,7 @@ var username=document.getElementById('username').value;
 var password=document.getElementById('password').value;
 console.log(username);
 console.log(password);
-aler(username);
+alert(username);
 
  request.open('POST','http://mkheera.imad.hasura-app.io/login' ,true);
  request.setRequestHeader('Content-Type','application/json');
